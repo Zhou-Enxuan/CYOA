@@ -9,7 +9,7 @@
 				background-color: darkblue;	
 			}
 
-			.Title {
+			h1  {
 				font-size: 70px;
 				text-align: center;
 				background-color: red;
@@ -20,25 +20,26 @@
 				color: white;
 			}
 
-			a {
+			#Hidden {
+				color: black;
+				font-size: 70px;
+				text-decoration: none;
+			}
+
+			.choice {
 				font-size: 20px
 			}
 
-			a:link{
+			.choice:link, a:visited {
 				color:red;
-
-			}
-
-			a:visited {
-				color:purple;
 				text-decoration: underline;
 			}
 
-			a:hover {
+			.choice:hover {
 				color: yellow;
 			}
 
-			a:active {
+			.choice:active {
 				color: brown;	
 			}
 
@@ -47,22 +48,22 @@
 	</head>
 	
 	<body>
-		<h1 class = "Title">Iron Man's Story</h1>
+		<h1>Iron Man'<a href="IronManHE.html" id = "Hidden">s</a> Story</h1>
 		<br>
 		<br>
 		<br>
 		<div id="story">
 		<p>
-			You have a date with Pepper, but Jarvis tells you someone broke your security and try to steal you suit. What are you going to do?
+			You have a date with Pepper, but Jarvis tells you someone broke your security and try to steal your suit. What are you going to do?
 		</p>
 		<br>
 		<img src="http://mediafiles.cineplex.com/Blog/English/FullSize/pepperironman3.jpg">
 		<br>
 		<br>
-		<a href="IronManBD1.html">Keep dating with Pepper</a>
+		<a href="IronManBD1.html" class = "choice">Keep dating with Pepper</a>
 		<br>
 
-		<a href="IronMan2.html">Go back to Stark to check what is happening</a>
+		<a href="IronMan2.html" class = "choice">Go back to Stark to check what is happening</a>
 
 		<div>
 	</body>
