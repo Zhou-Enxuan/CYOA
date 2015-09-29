@@ -1,0 +1,44 @@
+			body {
+				background-color: darkblue;	
+			}
+
+			h1  {
+				font-size: 70px;
+				text-align: center;
+				background-color: red;
+			} 
+
+			p {
+				font-size: 20px;
+				color: white;
+				text-align: center;
+			}
+
+			#links {
+				margin-left:auto;
+				margin-right: auto;
+				width: 11%;
+				padding-left: auto;
+				padding-right: auto;
+				font-size: 20px;
+
+			}
+
+			a:link, a:visited {
+				color:red;
+				text-decoration: underline;
+			}
+
+			a:hover {
+				color: yellow;
+			}
+
+			a:active {
+				color: brown;	
+			}
+
+			#choice3 {
+				color: darkblue;
+					
+				font-size: 20px;
+			}
