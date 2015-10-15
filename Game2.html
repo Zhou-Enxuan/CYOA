@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Marvel Universe Game</title>
+		<script type="text/javascript" src = "Theme.js"></script>
 		<style type="text/css">
 			body{
 				background-color: darkblue;
@@ -22,6 +23,20 @@
 
 
 			}
+
+			#Themes {
+				margin-left:auto;
+				margin-right: auto;
+				width:45%;
+
+			}
+
+			.Theme {
+				width: 200px;
+				height: 50px;		
+				display: inline-block;
+			
+			}
 			.hero > a > img {
 				width: 300px;
 
@@ -38,6 +53,12 @@
 	</head>
 	
 	<body>
+		<div id = "Themes">
+			<button onclick="changeStyle('black','darkblue','red')" class = "Theme">Iron Man</button>
+			<button onclick="changeStyle('white','darkGreen','purple')" class = "Theme">Hulk</button>
+			<button onclick="changeStyle('white','black','darkblue')" class = "Theme">Thor</button>
+		</div>
+
 		<h1 class = "Name">Choice Your Hero</h1>
 		<br>
 		<br>
